@@ -3,10 +3,10 @@ name: CI/CD Pipeline  # Tên của pipeline
 on:  # Chỉ định các sự kiện sẽ kích hoạt pipeline
   push:
     branches:
-      - master  # Chạy khi có thay đổi trên nhánh master
+      - main  # Chạy khi có thay đổi trên nhánh master
   pull_request:
     branches:
-      - master  # Chạy khi có pull request vào nhánh master
+      - main  # Chạy khi có pull request vào nhánh master
 
 jobs:
   build:
